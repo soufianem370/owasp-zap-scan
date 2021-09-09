@@ -9,5 +9,5 @@ resources:
 jobs:
 - template: owasp-zap-ui-scan-template.yml@owaspzapui
   parameters:
-    url: $(ApplicationUrl)
+    url: https://www.hespress.com/
     publishAsTestResults: variables.PublishTestResults
